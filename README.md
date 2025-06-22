@@ -1,4 +1,3 @@
-# 21Ben
 This is a Blackjack Simulator that allows you to play a game of blackjack using manually card counting strategies and to simulate blackjack using automatic card counting strategies.
 
 To install:

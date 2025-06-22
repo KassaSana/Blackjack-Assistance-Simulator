@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Card.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Counter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dealer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Deck.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Hand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OptimalPlay.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayMenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SimulateMenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Simulation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SimulationResults.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SimPlayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StatisticsMenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StatsTracker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Card.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Counter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dealer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Deck.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Hand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OptimalPlay.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayMenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SimulateMenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Simulation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SimulationResults.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SimPlayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StatisticsMenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StatsTracker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="assets\2_of_clubs.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\2_of_diamonds.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\2_of_hearts.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\2_of_spades.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\3_of_clubs.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\3_of_diamonds.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\3_of_hearts.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\3_of_spades.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\4_of_clubs.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\4_of_diamonds.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\4_of_hearts.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\4_of_spades.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\5_of_clubs.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\5_of_diamonds.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\5_of_hearts.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\5_of_spades.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\6_of_clubs.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\6_of_diamonds.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\6_of_hearts.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\6_of_spades.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\7_of_clubs.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\7_of_diamonds.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\7_of_hearts.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\7_of_spades.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\8_of_clubs.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\8_of_diamonds.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\8_of_hearts.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\8_of_spades.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\9_of_clubs.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\9_of_diamonds.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\9_of_hearts.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\9_of_spades.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\10_of_clubs.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\10_of_diamonds.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\10_of_hearts.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\10_of_spades.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\ace_of_clubs.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\ace_of_diamonds.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\ace_of_hearts.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\ace_of_spades.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\back_of_card.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\gameBackground.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\jack_of_clubs.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\jack_of_diamonds.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\jack_of_hearts.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\jack_of_spades.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\king_of_clubs.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\king_of_diamonds.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\king_of_hearts.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\king_of_spades.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\mainMenuBackground.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\queen_of_clubs.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\queen_of_diamonds.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\queen_of_hearts.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\queen_of_spades.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\settingsBackground.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="assets\arial.ttf">
+      <Filter>Resource Files</Filter>
+    </Font>
+    <Font Include="assets\ttfFont.ttf">
+      <Filter>Resource Files</Filter>
+    </Font>
+  </ItemGroup>
+</Project>
